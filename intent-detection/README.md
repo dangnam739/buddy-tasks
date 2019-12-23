@@ -1,10 +1,11 @@
-#Yêu cầu: class Gintent trong file detect.py có hàm xử lý intent_of():
+Yêu cầu: class Gintent trong file detect.py có hàm xử lý intent_of():
 - class sẽ load một model fasttext
 - Đầu vào là một câu dạng string
 - Đầu ra là intent của câu đó, cũng ở dạng string.
-#Cách đặt tên intent phụ thuộc vào data mà người làm tự chuẩn bị.
 
-#Ví dụ: 
+Cách đặt tên intent phụ thuộc vào data mà người làm tự chuẩn bị.
+
+Ví dụ: 
 ```python
 from detect import Gintent
 MODEL_PATH = "somewhere/tp/model.bin"
